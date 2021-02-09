@@ -1,0 +1,21 @@
+{
+  "name": "rokkitdash",
+  "version": "1.0.0",
+  "description": "A web panel for managing servers serving static and other content",
+  "main": "./dist/index.js",
+  "scripts": {
+    "prestart": "tsc --build",
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/RokkitLabs/RokkitDash.git"
+  },
+  "author": "Matthew Wareing, Alexander Howe",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/RokkitLabs/RokkitDash/issues"
+  },
+  "homepage": "https://github.com/RokkitLabs/RokkitDash#readme"
+}
