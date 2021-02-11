@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Installation - RokkitDash</title>
+    <link rel="stylesheet" href="/css/install/index.css" />
+    <%- include('./partial/head'); %>
+</head>
+
+<body class="container">
+<header>
+    <%- include('./partial/header'); %>
+</header>
+
+<main>
+    <h2>Install</h2>
+    <h3>Database Engine</h3>
+    <form>
+        <input type="radio" id="useown" value="useown" name="dbengine" checked/>
+        <label for="useown">Use my own</label>
+        <br>
+        <input type="radio" id="setupdb" value="setupdb" name="dbengine" />
+        <label for="setupdb">Set up database for me</label>
+    </form>
+
+    <form class="dbInput">
+        <h4>DB URL</h4>
+        <input type="text" placeholder="localhost:3306" />
+        <br><br>
+        <h4>Username</h4>
+        <input type="text" placeholder="root" />
+        <br><br>
+        <h4>Password</h4>
+        <input type="password" placeholder="••••••••" />
+    </form>
+
+    <!--Next & Back button-->
+    <button class="backbutton" disabled>Back</button>
+    <button class="nextbutton">Next</button>
+    <br style="clear: both;">
+</main>
+
+</body>
+</html>

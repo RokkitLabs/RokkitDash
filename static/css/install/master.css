@@ -1,0 +1,68 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: darkcyan;
+}
+
+.title {
+    font-weight: 500;
+    text-align: center;
+    margin: 25px 0px;
+    font-size: 50px;
+    color: white;
+}
+
+main {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    border-radius: 5px;
+    width: 25vw;
+    min-width: 500px;
+    padding: 10px;
+    margin: auto;
+    height: fit-content;
+    background-color: white;
+}
+
+main h2 {
+    text-align: center;
+    font-size: 25px;
+}
+main h3 {
+    margin: 5px 0px;
+    font-size: 20px;
+}
+.nextbutton {
+    margin-top: 25px;
+    float: right;
+    padding: 10px 15px;
+    border-radius: 3px;
+    background-color: rgb(0,126,30);
+    color: white;
+    border: none;
+}
+.backbutton {
+    margin-top: 25px;
+    float: left;
+    padding: 10px 15px;
+    border-radius: 3px;
+    background-color: rgb(200,0,00);
+    color: white;
+    border: none;
+}
+
+input[type=radio]:hover {
+    cursor: pointer;
+}
+
+.nextbutton:hover {
+    background-color: rgb(0,116,20);
+    cursor: pointer;
+}
+.backbutton:hover {
+    background-color: rgb(190, 0, 0);
+    cursor: pointer;
+}
+.backbutton:disabled {
+    background-color: rgb(100, 0, 0);
+    cursor: not-allowed;
+}

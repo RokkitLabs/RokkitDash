@@ -1,0 +1,16 @@
+.dbInput {
+    visibility: visible;
+    margin-top: 15px;
+}
+
+input[type=text], input[type=password] {
+    width: calc(50% - 20px);
+    height: 25px;
+    font-size: 18px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+h4 {
+    margin-top: 5px;
+    font-size: 18px;
+}
