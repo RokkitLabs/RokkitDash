@@ -14,7 +14,7 @@ import {ContentHandler} from "./handlers/contentHandler";
 	}
 
 	try{
-		let content = await fs.promises.readFile("/etc/rokkitdash/config.ini", "utf-8"); //Read config
+		let content = await fs.promises.readFile("/etc/rokkitdash/config", "utf-8"); //Read config
 		config = ini.parse(content);
 	}
 	catch {}
